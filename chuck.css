@@ -1,0 +1,39 @@
+html {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #bdd4e7;
+    background: linear-gradient(to right, rgba(239, 197, 202, 1) 0%, rgba(210, 75, 90, 1) 50%, rgba(186, 39, 55, 1) 51%, rgba(241, 142, 153, 1) 100%);
+    height: 100%;
+}
+
+.entete p {
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.text {
+    margin: 100px auto;
+    padding: 30px 20px;
+    width: 80%;
+    text-align: center;
+    background: linear-gradient(to right, rgb(172, 8, 136) 0%, rgb(119, 41, 98) 50%, rgb(211, 106, 179) 51%, rgba(219, 54, 164, 1) 100%);
+    color: rgb(240, 240, 240);
+    border-radius: 16px 10px 10px 10px;
+    border: 10px ridge #710479;
+    font-size: 18px;
+}
+
+button {
+    font-size: large;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 15px 4px rgba(21, 130, 138, 0.89);
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    box-shadow: 0px 0px 15px 4px white;
+    background-color: rgb(184, 41, 136);
+    color: white;
+}
